@@ -18,13 +18,11 @@ struct GiveawayListingView: View {
             }
 
             if viewModel.showLoading {
-                ProgressView("Loading...")
-                    .padding()
+                LoaderView()
             }
             
             if let errorMessage = viewModel.errorMessage {
-                Text("Error: \(errorMessage)")
-                    .padding()
+                ErrorTextView(text: errorMessage)
             }
             
             if !viewModel.giveaways.isEmpty {
