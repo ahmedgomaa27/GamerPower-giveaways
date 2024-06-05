@@ -33,7 +33,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8C2B10362C0D01A800565A72 /* giveaways.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = giveaways.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C2B10362C0D01A800565A72 /* Giveaways.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Giveaways.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C2B10392C0D01A800565A72 /* GiveawaysApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiveawaysApp.swift; sourceTree = "<group>"; };
 		8C2B103D2C0D01AA00565A72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8C2B10402C0D01AA00565A72 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -73,7 +73,7 @@
 		8C2B102D2C0D01A800565A72 = {
 			isa = PBXGroup;
 			children = (
-				8C2B10382C0D01A800565A72 /* giveaways */,
+				8C2B10382C0D01A800565A72 /* Giveaways */,
 				8C2B10372C0D01A800565A72 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -81,12 +81,12 @@
 		8C2B10372C0D01A800565A72 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8C2B10362C0D01A800565A72 /* giveaways.app */,
+				8C2B10362C0D01A800565A72 /* Giveaways.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8C2B10382C0D01A800565A72 /* giveaways */ = {
+		8C2B10382C0D01A800565A72 /* Giveaways */ = {
 			isa = PBXGroup;
 			children = (
 				8C2B10562C0D117D00565A72 /* Models */,
@@ -97,7 +97,7 @@
 				8C2B103D2C0D01AA00565A72 /* Assets.xcassets */,
 				8C2B103F2C0D01AA00565A72 /* Preview Content */,
 			);
-			path = giveaways;
+			path = Giveaways;
 			sourceTree = "<group>";
 		};
 		8C2B103F2C0D01AA00565A72 /* Preview Content */ = {
@@ -222,9 +222,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8C2B10352C0D01A800565A72 /* giveaways */ = {
+		8C2B10352C0D01A800565A72 /* Giveaways */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8C2B10442C0D01AA00565A72 /* Build configuration list for PBXNativeTarget "giveaways" */;
+			buildConfigurationList = 8C2B10442C0D01AA00565A72 /* Build configuration list for PBXNativeTarget "Giveaways" */;
 			buildPhases = (
 				8C2B10322C0D01A800565A72 /* Sources */,
 				8C2B10332C0D01A800565A72 /* Frameworks */,
@@ -234,12 +234,12 @@
 			);
 			dependencies = (
 			);
-			name = giveaways;
+			name = Giveaways;
 			packageProductDependencies = (
 				8C2B10482C0D0B4500565A72 /* Moya */,
 			);
 			productName = giveaways;
-			productReference = 8C2B10362C0D01A800565A72 /* giveaways.app */;
+			productReference = 8C2B10362C0D01A800565A72 /* Giveaways.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -257,7 +257,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 8C2B10312C0D01A800565A72 /* Build configuration list for PBXProject "giveaways" */;
+			buildConfigurationList = 8C2B10312C0D01A800565A72 /* Build configuration list for PBXProject "Giveaways" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -273,7 +273,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8C2B10352C0D01A800565A72 /* giveaways */,
+				8C2B10352C0D01A800565A72 /* Giveaways */,
 			);
 		};
 /* End PBXProject section */
@@ -501,7 +501,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8C2B10312C0D01A800565A72 /* Build configuration list for PBXProject "giveaways" */ = {
+		8C2B10312C0D01A800565A72 /* Build configuration list for PBXProject "Giveaways" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8C2B10422C0D01AA00565A72 /* Debug */,
@@ -510,7 +510,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8C2B10442C0D01AA00565A72 /* Build configuration list for PBXNativeTarget "giveaways" */ = {
+		8C2B10442C0D01AA00565A72 /* Build configuration list for PBXNativeTarget "Giveaways" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8C2B10452C0D01AA00565A72 /* Debug */,
