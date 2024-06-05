@@ -7,18 +7,55 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8C2B103A2C0D01A800565A72 /* giveawaysApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2B10392C0D01A800565A72 /* giveawaysApp.swift */; };
-		8C2B103C2C0D01A800565A72 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2B103B2C0D01A800565A72 /* ContentView.swift */; };
+		8C2B103A2C0D01A800565A72 /* GiveawaysApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2B10392C0D01A800565A72 /* GiveawaysApp.swift */; };
 		8C2B103E2C0D01AA00565A72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C2B103D2C0D01AA00565A72 /* Assets.xcassets */; };
 		8C2B10412C0D01AA00565A72 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C2B10402C0D01AA00565A72 /* Preview Assets.xcassets */; };
+		8C2B10492C0D0B4500565A72 /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = 8C2B10482C0D0B4500565A72 /* Moya */; };
+		8C2B104C2C0D0B6400565A72 /* HttpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2B104B2C0D0B6400565A72 /* HttpClient.swift */; };
+		8C2B104E2C0D0B8C00565A72 /* AppTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2B104D2C0D0B8C00565A72 /* AppTarget.swift */; };
+		8C2B10522C0D0D9C00565A72 /* AppErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2B10512C0D0D9C00565A72 /* AppErrors.swift */; };
+		8C2B10552C0D114400565A72 /* GiveawayService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2B10542C0D114400565A72 /* GiveawayService.swift */; };
+		8C2B10582C0D119C00565A72 /* GiveawayModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2B10572C0D119C00565A72 /* GiveawayModel.swift */; };
+		8C2B105C2C0D12AF00565A72 /* GiveawayLisitngScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2B105B2C0D12AF00565A72 /* GiveawayLisitngScreen.swift */; };
+		8C2B105E2C0D137100565A72 /* GiveawayViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2B105D2C0D137100565A72 /* GiveawayViewModel.swift */; };
+		8C2B10602C0D31A000565A72 /* EpicGamesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2B105F2C0D31A000565A72 /* EpicGamesView.swift */; };
+		8C2B10632C0D3D6E00565A72 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2B10622C0D3D6E00565A72 /* Constants.swift */; };
+		8C2B10662C0DD61D00565A72 /* GiveawayDetailsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2B10652C0DD61D00565A72 /* GiveawayDetailsScreen.swift */; };
+		8C2B10682C0DE0C300565A72 /* GiveawayCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2B10672C0DE0C300565A72 /* GiveawayCard.swift */; };
+		8C2B106C2C0E079600565A72 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2B106B2C0E079600565A72 /* String+Extensions.swift */; };
+		8C2B106E2C0E0B5400565A72 /* TextWithIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2B106D2C0E0B5400565A72 /* TextWithIcon.swift */; };
+		8C2B10702C0E0B7C00565A72 /* TextWithTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2B106F2C0E0B7C00565A72 /* TextWithTitle.swift */; };
+		8C2B10722C0E9CA100565A72 /* ChoosePlatformView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2B10712C0E9CA100565A72 /* ChoosePlatformView.swift */; };
+		8C2B10752C0F1DE400565A72 /* GiveawayListingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2B10742C0F1DE400565A72 /* GiveawayListingView.swift */; };
+		8C2B10772C0F1EC400565A72 /* GiveawayVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2B10762C0F1EC400565A72 /* GiveawayVM.swift */; };
+		8C2B107C2C0F3CA700565A72 /* OnFirstAppearModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2B107B2C0F3CA700565A72 /* OnFirstAppearModifier.swift */; };
+		8C2B107E2C10766200565A72 /* UIApplication+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2B107D2C10766200565A72 /* UIApplication+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8C2B10362C0D01A800565A72 /* giveaways.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = giveaways.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		8C2B10392C0D01A800565A72 /* giveawaysApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = giveawaysApp.swift; sourceTree = "<group>"; };
-		8C2B103B2C0D01A800565A72 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8C2B10392C0D01A800565A72 /* GiveawaysApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiveawaysApp.swift; sourceTree = "<group>"; };
 		8C2B103D2C0D01AA00565A72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8C2B10402C0D01AA00565A72 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8C2B104B2C0D0B6400565A72 /* HttpClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpClient.swift; sourceTree = "<group>"; };
+		8C2B104D2C0D0B8C00565A72 /* AppTarget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTarget.swift; sourceTree = "<group>"; };
+		8C2B10512C0D0D9C00565A72 /* AppErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppErrors.swift; sourceTree = "<group>"; };
+		8C2B10542C0D114400565A72 /* GiveawayService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiveawayService.swift; sourceTree = "<group>"; };
+		8C2B10572C0D119C00565A72 /* GiveawayModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiveawayModel.swift; sourceTree = "<group>"; };
+		8C2B105B2C0D12AF00565A72 /* GiveawayLisitngScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiveawayLisitngScreen.swift; sourceTree = "<group>"; };
+		8C2B105D2C0D137100565A72 /* GiveawayViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiveawayViewModel.swift; sourceTree = "<group>"; };
+		8C2B105F2C0D31A000565A72 /* EpicGamesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpicGamesView.swift; sourceTree = "<group>"; };
+		8C2B10622C0D3D6E00565A72 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		8C2B10652C0DD61D00565A72 /* GiveawayDetailsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiveawayDetailsScreen.swift; sourceTree = "<group>"; };
+		8C2B10672C0DE0C300565A72 /* GiveawayCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiveawayCard.swift; sourceTree = "<group>"; };
+		8C2B106B2C0E079600565A72 /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		8C2B106D2C0E0B5400565A72 /* TextWithIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextWithIcon.swift; sourceTree = "<group>"; };
+		8C2B106F2C0E0B7C00565A72 /* TextWithTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextWithTitle.swift; sourceTree = "<group>"; };
+		8C2B10712C0E9CA100565A72 /* ChoosePlatformView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoosePlatformView.swift; sourceTree = "<group>"; };
+		8C2B10742C0F1DE400565A72 /* GiveawayListingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiveawayListingView.swift; sourceTree = "<group>"; };
+		8C2B10762C0F1EC400565A72 /* GiveawayVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiveawayVM.swift; sourceTree = "<group>"; };
+		8C2B107B2C0F3CA700565A72 /* OnFirstAppearModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnFirstAppearModifier.swift; sourceTree = "<group>"; };
+		8C2B107D2C10766200565A72 /* UIApplication+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C2B10492C0D0B4500565A72 /* Moya in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,8 +89,11 @@
 		8C2B10382C0D01A800565A72 /* giveaways */ = {
 			isa = PBXGroup;
 			children = (
-				8C2B10392C0D01A800565A72 /* giveawaysApp.swift */,
-				8C2B103B2C0D01A800565A72 /* ContentView.swift */,
+				8C2B10562C0D117D00565A72 /* Models */,
+				8C2B104F2C0D0D8900565A72 /* Utils */,
+				8C2B104A2C0D0B5000565A72 /* Remote */,
+				8C2B10592C0D128A00565A72 /* Screens */,
+				8C2B10392C0D01A800565A72 /* GiveawaysApp.swift */,
 				8C2B103D2C0D01AA00565A72 /* Assets.xcassets */,
 				8C2B103F2C0D01AA00565A72 /* Preview Content */,
 			);
@@ -65,6 +106,117 @@
 				8C2B10402C0D01AA00565A72 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8C2B104A2C0D0B5000565A72 /* Remote */ = {
+			isa = PBXGroup;
+			children = (
+				8C2B10532C0D113200565A72 /* Services */,
+				8C2B104B2C0D0B6400565A72 /* HttpClient.swift */,
+				8C2B104D2C0D0B8C00565A72 /* AppTarget.swift */,
+			);
+			path = Remote;
+			sourceTree = "<group>";
+		};
+		8C2B104F2C0D0D8900565A72 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				8C2B10622C0D3D6E00565A72 /* Constants.swift */,
+				8C2B106A2C0E078300565A72 /* Extensions */,
+				8C2B10502C0D0D8F00565A72 /* Errors */,
+				8C2B10692C0DEE4500565A72 /* SharedViews */,
+				8C2B107A2C0F3BFB00565A72 /* Modifiers */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		8C2B10502C0D0D8F00565A72 /* Errors */ = {
+			isa = PBXGroup;
+			children = (
+				8C2B10512C0D0D9C00565A72 /* AppErrors.swift */,
+			);
+			path = Errors;
+			sourceTree = "<group>";
+		};
+		8C2B10532C0D113200565A72 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				8C2B10542C0D114400565A72 /* GiveawayService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		8C2B10562C0D117D00565A72 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8C2B10572C0D119C00565A72 /* GiveawayModel.swift */,
+				8C2B10762C0F1EC400565A72 /* GiveawayVM.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8C2B10592C0D128A00565A72 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				8C2B10642C0DD60600565A72 /* GiveawayDetails */,
+				8C2B105A2C0D129900565A72 /* GiveawayLisitng */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		8C2B105A2C0D129900565A72 /* GiveawayLisitng */ = {
+			isa = PBXGroup;
+			children = (
+				8C2B105B2C0D12AF00565A72 /* GiveawayLisitngScreen.swift */,
+				8C2B105D2C0D137100565A72 /* GiveawayViewModel.swift */,
+				8C2B10732C0F1D5400565A72 /* UIComponents */,
+			);
+			path = GiveawayLisitng;
+			sourceTree = "<group>";
+		};
+		8C2B10642C0DD60600565A72 /* GiveawayDetails */ = {
+			isa = PBXGroup;
+			children = (
+				8C2B10652C0DD61D00565A72 /* GiveawayDetailsScreen.swift */,
+			);
+			path = GiveawayDetails;
+			sourceTree = "<group>";
+		};
+		8C2B10692C0DEE4500565A72 /* SharedViews */ = {
+			isa = PBXGroup;
+			children = (
+				8C2B106D2C0E0B5400565A72 /* TextWithIcon.swift */,
+				8C2B106F2C0E0B7C00565A72 /* TextWithTitle.swift */,
+			);
+			path = SharedViews;
+			sourceTree = "<group>";
+		};
+		8C2B106A2C0E078300565A72 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8C2B106B2C0E079600565A72 /* String+Extensions.swift */,
+				8C2B107D2C10766200565A72 /* UIApplication+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		8C2B10732C0F1D5400565A72 /* UIComponents */ = {
+			isa = PBXGroup;
+			children = (
+				8C2B105F2C0D31A000565A72 /* EpicGamesView.swift */,
+				8C2B10672C0DE0C300565A72 /* GiveawayCard.swift */,
+				8C2B10712C0E9CA100565A72 /* ChoosePlatformView.swift */,
+				8C2B10742C0F1DE400565A72 /* GiveawayListingView.swift */,
+			);
+			path = UIComponents;
+			sourceTree = "<group>";
+		};
+		8C2B107A2C0F3BFB00565A72 /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				8C2B107B2C0F3CA700565A72 /* OnFirstAppearModifier.swift */,
+			);
+			path = Modifiers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +235,9 @@
 			dependencies = (
 			);
 			name = giveaways;
+			packageProductDependencies = (
+				8C2B10482C0D0B4500565A72 /* Moya */,
+			);
 			productName = giveaways;
 			productReference = 8C2B10362C0D01A800565A72 /* giveaways.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +266,9 @@
 				Base,
 			);
 			mainGroup = 8C2B102D2C0D01A800565A72;
+			packageReferences = (
+				8C2B10472C0D0B4500565A72 /* XCRemoteSwiftPackageReference "Moya" */,
+			);
 			productRefGroup = 8C2B10372C0D01A800565A72 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +295,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C2B103C2C0D01A800565A72 /* ContentView.swift in Sources */,
-				8C2B103A2C0D01A800565A72 /* giveawaysApp.swift in Sources */,
+				8C2B10682C0DE0C300565A72 /* GiveawayCard.swift in Sources */,
+				8C2B106C2C0E079600565A72 /* String+Extensions.swift in Sources */,
+				8C2B10702C0E0B7C00565A72 /* TextWithTitle.swift in Sources */,
+				8C2B104C2C0D0B6400565A72 /* HttpClient.swift in Sources */,
+				8C2B10722C0E9CA100565A72 /* ChoosePlatformView.swift in Sources */,
+				8C2B10552C0D114400565A72 /* GiveawayService.swift in Sources */,
+				8C2B10752C0F1DE400565A72 /* GiveawayListingView.swift in Sources */,
+				8C2B10662C0DD61D00565A72 /* GiveawayDetailsScreen.swift in Sources */,
+				8C2B10582C0D119C00565A72 /* GiveawayModel.swift in Sources */,
+				8C2B10522C0D0D9C00565A72 /* AppErrors.swift in Sources */,
+				8C2B107E2C10766200565A72 /* UIApplication+Extensions.swift in Sources */,
+				8C2B10602C0D31A000565A72 /* EpicGamesView.swift in Sources */,
+				8C2B10772C0F1EC400565A72 /* GiveawayVM.swift in Sources */,
+				8C2B10632C0D3D6E00565A72 /* Constants.swift in Sources */,
+				8C2B105E2C0D137100565A72 /* GiveawayViewModel.swift in Sources */,
+				8C2B107C2C0F3CA700565A72 /* OnFirstAppearModifier.swift in Sources */,
+				8C2B105C2C0D12AF00565A72 /* GiveawayLisitngScreen.swift in Sources */,
+				8C2B104E2C0D0B8C00565A72 /* AppTarget.swift in Sources */,
+				8C2B103A2C0D01A800565A72 /* GiveawaysApp.swift in Sources */,
+				8C2B106E2C0E0B5400565A72 /* TextWithIcon.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,6 +520,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8C2B10472C0D0B4500565A72 /* XCRemoteSwiftPackageReference "Moya" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Moya/Moya";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 15.0.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8C2B10482C0D0B4500565A72 /* Moya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8C2B10472C0D0B4500565A72 /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = Moya;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 8C2B102E2C0D01A800565A72 /* Project object */;
 }
