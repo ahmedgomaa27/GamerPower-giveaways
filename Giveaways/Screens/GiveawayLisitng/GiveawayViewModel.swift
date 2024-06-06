@@ -31,13 +31,13 @@ class GiveawayViewModel: ObservableObject {
 
         do {
             let result = try await service.getList(parameters: parameters)
-            DispatchQueue.main.async {
+            DispatchQueue.main.sync {
                 self.giveaways = result.map({ $0.convertToVM() })
                 self.errorMessage = nil
                 self.showLoading = false
             }
         } catch {
-            DispatchQueue.main.async {
+            DispatchQueue.main.sync {
                 self.errorMessage = (error as? AppErrors)?.errorMsg
                 self.showLoading = false
             }

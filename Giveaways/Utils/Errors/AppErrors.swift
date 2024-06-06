@@ -8,6 +8,7 @@
 import Foundation
 
 enum AppErrors: Error {
+
     case invalidRequest(errorMsg: String)
     case invalidParsing(errorMsg: String)
     

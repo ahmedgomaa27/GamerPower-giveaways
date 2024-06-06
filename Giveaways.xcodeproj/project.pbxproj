@@ -30,10 +30,11 @@
 		8C2B10772C0F1EC400565A72 /* GiveawayVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2B10762C0F1EC400565A72 /* GiveawayVM.swift */; };
 		8C2B107C2C0F3CA700565A72 /* OnFirstAppearModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2B107B2C0F3CA700565A72 /* OnFirstAppearModifier.swift */; };
 		8C2B107E2C10766200565A72 /* UIApplication+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2B107D2C10766200565A72 /* UIApplication+Extensions.swift */; };
-		8C2B10952C1083A100565A72 /* GiveawaysTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2B10942C1083A100565A72 /* GiveawaysTests.swift */; };
+		8C2B10952C1083A100565A72 /* GiveawayViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2B10942C1083A100565A72 /* GiveawayViewModelTests.swift */; };
 		8C2B109C2C10911C00565A72 /* LoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2B109B2C10911C00565A72 /* LoaderView.swift */; };
 		8C2B109E2C1091EE00565A72 /* ErrorTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2B109D2C1091EE00565A72 /* ErrorTextView.swift */; };
 		8C2B10A02C10925900565A72 /* UINavigation+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2B109F2C10925900565A72 /* UINavigation+Extensions.swift */; };
+		8C2B10A32C109D8600565A72 /* MockGiveawayService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2B10A22C109D8600565A72 /* MockGiveawayService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,10 +72,11 @@
 		8C2B107B2C0F3CA700565A72 /* OnFirstAppearModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnFirstAppearModifier.swift; sourceTree = "<group>"; };
 		8C2B107D2C10766200565A72 /* UIApplication+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+Extensions.swift"; sourceTree = "<group>"; };
 		8C2B10922C1083A100565A72 /* GiveawaysTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GiveawaysTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8C2B10942C1083A100565A72 /* GiveawaysTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiveawaysTests.swift; sourceTree = "<group>"; };
+		8C2B10942C1083A100565A72 /* GiveawayViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiveawayViewModelTests.swift; sourceTree = "<group>"; };
 		8C2B109B2C10911C00565A72 /* LoaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaderView.swift; sourceTree = "<group>"; };
 		8C2B109D2C1091EE00565A72 /* ErrorTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorTextView.swift; sourceTree = "<group>"; };
 		8C2B109F2C10925900565A72 /* UINavigation+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigation+Extensions.swift"; sourceTree = "<group>"; };
+		8C2B10A22C109D8600565A72 /* MockGiveawayService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockGiveawayService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -253,9 +255,18 @@
 		8C2B10932C1083A100565A72 /* GiveawaysTests */ = {
 			isa = PBXGroup;
 			children = (
-				8C2B10942C1083A100565A72 /* GiveawaysTests.swift */,
+				8C2B10A12C109D7500565A72 /* Mocking */,
+				8C2B10942C1083A100565A72 /* GiveawayViewModelTests.swift */,
 			);
 			path = GiveawaysTests;
+			sourceTree = "<group>";
+		};
+		8C2B10A12C109D7500565A72 /* Mocking */ = {
+			isa = PBXGroup;
+			children = (
+				8C2B10A22C109D8600565A72 /* MockGiveawayService.swift */,
+			);
+			path = Mocking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -394,7 +405,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C2B10952C1083A100565A72 /* GiveawaysTests.swift in Sources */,
+				8C2B10A32C109D8600565A72 /* MockGiveawayService.swift in Sources */,
+				8C2B10952C1083A100565A72 /* GiveawayViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
