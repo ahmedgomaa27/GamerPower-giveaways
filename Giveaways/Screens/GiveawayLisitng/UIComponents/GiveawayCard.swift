@@ -52,7 +52,3 @@ struct GiveawayCard: View {
         }
     }
 }
-
-//#Preview {
-//    GiveawayCard()
-//}

@@ -28,6 +28,3 @@ struct ChoosePlatformView: View {
     }
 }
 
-//#Preview {
-//    ChoosePlatformView()
-//}
