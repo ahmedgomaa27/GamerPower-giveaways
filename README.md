@@ -3,6 +3,9 @@
 iOS application that integrates with the GamerPower giveaways API to display a list of game giveaways.
 This iOS project consists of two main screens: a listing screen and a details screen for giveaways.
 
+<img src="https://github.com/ahmedgomaa27/GamerPower-giveaways/assets/24413703/9a7ddb1c-4c2d-43f2-abcf-1bf34623da55" alt="Listing" width="300"/>
+<img src="https://github.com/ahmedgomaa27/GamerPower-giveaways/assets/24413703/d707f4f6-9527-4f4c-b388-2b6b0b04ff0a" alt="Details" width="300"/>
+
 ## Project Structure
 
 ### Models
