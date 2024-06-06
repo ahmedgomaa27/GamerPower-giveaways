@@ -57,7 +57,7 @@ struct EpicGamesView: View {
             .frame(width: 300, height: 256)
             .scrollTransition { effect, phase in
                 effect
-//                    .rotationEffect(Angle(degrees: phase.isIdentity ? 0: 10))
+                    .rotationEffect(Angle(degrees: phase.isIdentity ? 0: 10))
                     .scaleEffect(phase.isIdentity ? 1: 0.8)
                     .contrast(phase.isIdentity ? 1: 0.5)
             }

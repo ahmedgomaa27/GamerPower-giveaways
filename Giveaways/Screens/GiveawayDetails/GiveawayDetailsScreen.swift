@@ -96,7 +96,3 @@ struct GiveawayDetailsScreen: View {
         .ignoresSafeArea(edges: .top)
     }
 }
-
-//#Preview {
-//    GiveawayDetailsScreen()
-//}
